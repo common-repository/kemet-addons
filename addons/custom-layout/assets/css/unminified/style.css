@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+## Custom Layout
+--------------------------------------------------------------*/
+.kmt-display-on-specifics-select,
+.kmt-hide-on-specifics-select {
+  display: none;
+}
+
+.kmt-display-on-specifics-select.kfw-field .kfw-fieldset,
+.kmt-hide-on-specifics-select.kfw-field .kfw-fieldset {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.kmt-display-on-specifics-select.kfw-field .kfw-title,
+.kmt-hide-on-specifics-select.kfw-field .kfw-title {
+  float: none;
+  width: auto;
+}
+
+.hide-on-rule.kfw-field-select select,
+.display-on-rule.kfw-field-select select,
+.kmt-user-rules.kfw-field-select select {
+  width: 100%;
+}
+
+.kemet-hook-custom-code {
+  display: none;
+}
+
+.kemet-hook-custom-code .kfw-title {
+  float: none;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.kemet-hook-custom-code .kfw-fieldset {
+  margin-left: auto;
+}
+
+.kemet-code-editor #post-body-content > :not(#titlediv) {
+  display: none;
+}
+
+.kemet-code-editor .kemet-hook-custom-code {
+  display: block;
+}
+
+.kemet-short-code .short-code-id {
+  display: inline-block;
+  padding: 6px 8px;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 1px solid #7e8993;
+}
+
+#kemet_custom_layout_options .kfw-field-fieldset .kfw-fieldset-content {
+  padding: 0;
+  border: 0;
+}
+
+#kemet_custom_layout_options .kfw-field-fieldset .kfw-fieldset-content > .kfw-field {
+  padding: 0;
+}

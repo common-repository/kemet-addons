@@ -1,0 +1,87 @@
+.wp-full-overlay-sidebar .wp-full-overlay-sidebar-content {
+	bottom: 120px;
+}
+
+.expanded .wp-full-overlay-footer {
+	height: 120px;
+}
+
+/* Panel */
+.kmt-customizer-reset-footer {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 75px;
+    background-color: #fff;
+    text-align: center;
+}
+.customizer-import-form.is-expanded .postbox {
+	height: 143px;
+}
+/* Button */
+.kmt-customizer-reset-footer .kmt-customizer-reset-button {
+    line-height: 10px;
+    width: 45%;
+}
+.customizer-import-form.border-box .fields {
+    position: absolute;
+    top: -200px;
+}
+.customizer-export-import{
+    width: 25%;
+}
+/* Import */
+.customizer-import-form {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 0;
+	background-color: #fff;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+
+.customizer-import-form.is-expanded {
+	overflow: visible;
+    background-color: #ffffff;
+    z-index: 99;
+    display: block;
+    max-height: 150px;
+    height: 100px;
+}
+.customizer-import-form.is-expanded h3 {
+	padding: 0px 10px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+form.customizer-import-form .inside {
+	 display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+.customizer-import-form .right-content {
+	width: 65%;
+    overflow: hidden;
+}
+.customizer-import-form .left-content {
+    width: 33%;
+    text-align: right;
+    align-self: flex-end;
+}
+.customizer-import-form .close.dashicons {
+    position: absolute;
+    right: 15px;
+    top: -25px;
+    cursor: pointer;
+}

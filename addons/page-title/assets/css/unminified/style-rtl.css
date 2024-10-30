@@ -1,0 +1,139 @@
+/*--------------------------------------------------------------
+## Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Page Title
+--------------------------------------------------------------*/
+.kmt-page-title-addon-content {
+  padding: 50px 0px;
+}
+
+.page-title-layout-1 .kemet-page-sub-title {
+  margin-top: 10px;
+}
+
+.page-title-layout-3 .kemet-page-sub-title {
+  width: 100%;
+}
+
+.kemet-breadcrumb-trail .trail-items,
+.kemet-breadcrumb-trail li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.kemet-breadcrumb-trail .breadcrumb-sep {
+  padding: 0 0.4em;
+}
+
+.page-title-layout-2 .kmt-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.page-title-layout-2 .kmt-page-title-wrap,
+.page-title-layout-2 .kemet-breadcrumb-trail {
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+  text-align: right;
+}
+
+.page-title-layout-2 .kemet-breadcrumb-trail {
+  text-align: left;
+}
+
+.kemet-merged-header-title .kmt-page-title-addon-content {
+  background-color: transparent;
+  background-image: none;
+}
+
+.kemet-page-title {
+  display: inline-block;
+}
+
+.kemet-page-title::after {
+  content: "";
+  display: block;
+  margin: 10px auto 10px;
+}
+
+.has-breadcrumb .trail-items {
+  margin: 6px 0;
+}
+
+.align-center .kemet-page-title::after {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.kemet-breadcrumb-trail > .prefix {
+  margin-left: 0.4em;
+}
+
+.kemet-breadcrumb-trail .dashicons {
+  vertical-align: text-bottom;
+}
+
+.align-right .kemet-page-title::after {
+  margin-right: auto;
+}
+
+.header-transparent .kmt-page-title-addon-content {
+  padding: 120px 0 50px 0;
+}
+
+.merged-header-transparent .kmt-page-title-addon-content {
+  padding: 155px 0 50px 0;
+}
+
+.page-title-layout-3 .kmt-page-title-wrap {
+  border-left: 3px solid;
+}
+
+.page-title-layout-3 .kemet-page-title {
+  text-align: center;
+}
+
+.page-title-layout-3 .taxonomy-description {
+  width: 100%;
+  text-align: left;
+}
+
+.kmt-sticky-footer .kmt-page-title-addon-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-title-layout-3 .kmt-page-title-wrap {
+    justify-content: center;
+    border-left: none;
+  }
+  .page-title-layout-3 .kemet-breadcrumb-trail {
+    display: none;
+  }
+  .page-title-layout-3 .subtitle-breadcrumbs {
+    justify-content: center;
+  }
+  .page-title-layout-3 .kemet-page-sub-title {
+    width: auto;
+  }
+  .page-title-layout-3 .taxonomy-description {
+    text-align: center;
+  }
+  .page-title-layout-2 .kmt-page-title-wrap {
+    text-align: center;
+  }
+  .page-title-layout-2 .kemet-breadcrumb-trail {
+    display: none;
+  }
+}
